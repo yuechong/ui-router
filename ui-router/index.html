@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>UI-router</title>
+ </head>
+ <body>
+  
+<div>
+	<div ui-view></div>
+    <!-- We'll also add some navigation: -->
+    <div>
+    	<hr>
+    	<p>功能:</p>
+    	<a ui-sref="hello">helo 1</a>
+    	<a ui-sref="login">login 2</a>	
+    </div>
+
+</div>
+  <script src="js/angular.js"></script>
+  <script src="js/angular-ui-router.js"></script>
+  <script src="js/app.js"></script>
+ </body>
+</html>
